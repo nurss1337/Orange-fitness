@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*--------- Container--------- */
+
+.container {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+
+}
+
+/*--------- Header--------- */
+
+.header__logo {
+	position: absolute;
+	left: 100;
+	right: 0;
+	padding-top: 62px;
+}
+
+.header__logo:first-child {
+	left: 0;
+}
+
+
+
+.header__iner {
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 0;
+	align-items: center;
+
+
+
+}
+
+.main__title{
+	padding: 0;
+	color: orange;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 auto;
+
+}
+
+.header {
+	width: 100%;
+	height: 180px;
+	border-bottom: 2px solid orange;
+
+}
+/*--------- Main--------- */
+.main {
+	border-bottom: 2px solid orange;
+}
+
+.main__inner {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 120px;
+
+}
+
+.trenerbox {
+	margin: 0 auto;
+	width: 250px;
+	height: 300px;
+	background-color: orange;
+	border-radius: 25px;
+	margin-left: 50px;
+}
+
+.trener__image {
+
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.image_trener {
+	border-radius: 25px;
+}
+
+
+.profile_trener {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.btn_zapis {
+	font-weight: 700;
+	font-size: 18px;
+	width: 180px;
+	height: 50px;
+	display: flex;
+	margin: 0 auto;
+	margin-top: 15px;
+	color: orange;
+	background-color: #fff;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	border-style: none;
+}
+
+.btn_zapis:hover {
+	background-color: #000;
+	cursor: pointer;
+}
+
+/*--------- Article --------- */
+
+.map__iner {
+	margin-bottom: 100px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 38px;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+/*--------- Footer--------- */
+
+.footer {
+	background-color: orange;
+	width: 100%;
+	height: 55px;
+
+}
+
+
+.footer__inner {
+	padding-top: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.footer_nav {
+	display: flex;
+	
+
+
+}
+
+.footer__link {
+	margin-left: 100px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+
+
+
+}
+
+.footer__link:hover {
+	color: #000;
+}
